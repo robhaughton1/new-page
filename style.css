@@ -91,7 +91,7 @@ header a:hover{
     color: white;
 }
 
-#showcase{
+#showcase h1 {
     font-size: 45px;
 
 }
@@ -204,4 +204,5 @@ header{
     margin-bottom: 5px;
 }
 }
+
 
