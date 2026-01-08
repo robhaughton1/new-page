@@ -27,14 +27,14 @@ I restored the entire site by:
 - Re‑implementing the Services section on the About page
 - Cleaning up redundant tags and unused code
 
-## 📚 What I Learned
+## What I Learned
 - How to debug legacy HTML/CSS
 - How floats affect layout and how to fix collapse issues
 - How to structure multi‑page sites cleanly
 - How to use GitHub version history to recover original code
 - How to maintain clean, readable markup
 
-## 📁 Tech Used
+## Tech Used
 - HTML5
 - CSS3
 - Git & GitHub
