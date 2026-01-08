@@ -3,14 +3,14 @@
 A clean, simple business website built with HTML5 and CSS3.  
 This project started as a corrupted legacy codebase and was fully restored, debugged, and modernized through careful structural fixes and layout corrections.
 
-## 🚀 Features
+## Features
 - Responsive HTML/CSS layout
 - Homepage with service boxes
 - About page with restored layout and sidebar
 - Services page with detailed offerings
 - Clean navigation across all pages
 
-## 🛠️ What I Fixed
+## What I Fixed
 This project originally contained:
 - Broken HTML structure
 - Mismatched closing tags
