@@ -4,9 +4,6 @@ body load.
 body {
     font: 15px/1.5 Helvetica, sans-serif;
     padding: 0;
-    margin: {
-    font: 15px/1.5 Helvetica, sans-serif;
-    padding: 0;
     margin: 0;
     background-color: #f4f4f4;
 }
@@ -77,23 +74,18 @@ header {
 }
 
 /* Header */
-header {
-    background: #35424a;
-    color: #ffffff;
-    padding-top: 30px;
-    min-height: 70px;
-    border-bottom: #: #ffffff;
-    padding-top: 30px;
-    min-height: 70px;
-    border-bottom: #e8491d 5px solid;
-}
-
+header { background: #35424a;
+        color: #ffffff; 
+        padding-top: 30px; 
+        min-height: 70px;
+        border-bottom: #e8491d 5px solid;
+       }
 header a {
     color: blacke8491d 5px solid;
 }
 
 header a {
-    color: black;
+    color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 16px;
@@ -109,7 +101,8 @@ header #branding {
     float: left;
 }
 
-;
+header a {
+    color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 16px;
@@ -139,14 +132,11 @@ header nav {
     margin-top: 10px;
 }
 
-header .highlight,
 header .current a {
     color: #e8491d;
-;
-    margin-top: 10px;
 }
 
-header .highlight,
+
 header .current a {
     color: #e8491d;
     font-weight: bold;
@@ -159,7 +149,9 @@ header a:hover {
 
 /* Showcase */
 #showcase {
-    min-height    font-weight: bold;
+    min-height: 400px;
+    text-align: center;
+    color: #ffffff;
 }
 
 header a:hover {
@@ -170,22 +162,19 @@ header a:hover {
 /* Showcase */
 #showcase {
     min-height: 350px;
-    background:
-        linear-gradient(rgba(0,: 350px;
-    background:
-        linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
-        url('../img/showcase.jpg') no-repeat 0 -400px;
-    text0,0,0.55)),
-        url('../img/showcase.jpg') no-repeat 0 -400px;
     text-align: center;
--align: center;
     color: #fff;
-    color: #fff;
-    padding-top:    padding-top: 60px;
+    padding-top: 60px;
 }
 
-#showcase 60px;
+
+#showcase {
+    min-height: 350px;
+    text-align: center;
+    color: #fff;
+    padding-top: 60px;
 }
+
 
 #showcase h1 {
     font-size: 45px;
@@ -193,7 +182,7 @@ header a:hover {
 }
 
 #showcase p {
-    font-size: 20px h1 {
+    font-size: 20px h1 
     font-size: 45px;
     margin-bottom: 10px;
 }
@@ -223,7 +212,6 @@ header a:hover {
 }
 
 #newsletter input[type="email"] {
-;
     color: black;
     background: #383333;
 }
@@ -237,20 +225,14 @@ header a:hover {
 }
 
 #newsletter input[type="email"] {
-    padding: 4px    padding: 4px;
+    padding: 4px;    
     height: 24px;
     width: 250px;
 }
 
 /* Boxes */
 #boxes {
-    margin;
-    height: 24px;
-    width: 250px;
-}
-
-/* Boxes */
--top: 20px;
+    margin-top: 20px;
 }
 
 #boxes .box {
@@ -260,10 +242,14 @@ header a:hover {
     padding: 10px;
 }
 
-#boxes .box img {
-    width#boxes {
+#boxes {
     margin-top: 20px;
 }
+
+#boxes .box img {
+    width: 90px;
+}
+
 
 #boxes .box {
     float: left;
@@ -278,29 +264,12 @@ header a:hover {
 
 /* Sidebar */
 aside#sidebar {
-    float: right: 80px;
-}
-
-/* Sidebar */
-aside#sidebar {
     float: right;
     width: 30%;
-;
-    width: 30%;
-    margin-top:     margin-top: 10px;
+    margin-top: 10px;
 }
 
-aside#sidebar .quote input,
-aside10px;
-}
-
-aside#sidebar .quote input,
 aside#sidebar .quote textarea {
-    width: 90%;
-    padding: 5px;
-}
-
-/* Main column#sidebar .quote textarea {
     width: 90%;
     padding: 5px;
 }
@@ -310,15 +279,7 @@ article#main-col {
     float: left;
     width: 65%;
 }
-
-/* Services list */
-ul#services li {
-    list-style */
-article#main-col {
-    float: left;
-    width: 65%;
-}
-
+    
 /* Services list */
 ul#services li {
     list-style: none;
@@ -327,25 +288,13 @@ ul#services li {
     margin-bottom: 5px;
     background: #e6e6e6;
 }
-
-/* Footer */
-footer: none;
-    padding: 20px;
-    border: #cccccc solid 1px;
-    margin-bottom: 5px;
-    background: #e6e6e6;
-}
-
-/* Footer */
+    
+/*Footer*/
+    
 footer {
     padding: 20px;
     margin-top: 20px;
-    color {
-    padding: 20px;
-    margin-top: 20px;
     color: #ffffff;
-    background-color: #e8491d;
-    text-align: center: #ffffff;
     background-color: #e8491d;
     text-align: center;
 }
