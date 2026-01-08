@@ -1,41 +1,37 @@
-# Haughton Business Site
+# Business Site Restoration
 
-A clean, simple business website built with HTML5 and CSS3.  
-This project started as a corrupted legacy codebase and was fully restored, debugged, and modernized through careful structural fixes and layout corrections.
+This project is a restored version of an older business-style webpage that had significant layout and styling issues. The original site contained broken CSS, missing structure, and inconsistent formatting. This repository documents the process of repairing the layout, restoring the design, and rebuilding the page into a clean, functional, and readable version.
+
+## What Was Fixed
+- Repaired corrupted CSS rules
+- Restored missing or broken selectors
+- Rebuilt layout structure for consistency
+- Cleaned and reformatted HTML for readability
+- Removed unused or invalid code
+- Reorganized files for clarity and maintainability
 
 ## Features
-- Responsive HTML/CSS layout
-- Homepage with service boxes
-- About page with restored layout and sidebar
-- Services page with detailed offerings
-- Clean navigation across all pages
+- Clean, centered business-style layout
+- Header, navigation, main content, and footer sections
+- Restored color scheme and spacing
+- Improved readability and visual structure
+- Fully functional and responsive basic layout
 
-## What I Fixed
-This project originally contained:
-- Broken HTML structure
-- Mismatched closing tags
-- Missing `<section>` wrappers
-- Collapsed layouts caused by floats
-- Incorrect stylesheet paths
-- Duplicate sections and invalid nesting
-
-I restored the entire site by:
-- Rebuilding the DOM structure
-- Correcting sidebar and container nesting
-- Adding proper float clearing
-- Re‑adding missing navigation links
-- Re‑implementing the Services section on the About page
-- Cleaning up redundant tags and unused code
+## Purpose
+This project demonstrates the ability to debug and restore an existing codebase rather than starting from scratch. The goal was to take a broken webpage and rebuild it into a stable, intentional design while maintaining the original style direction.
 
 ## What I Learned
-- How to debug legacy HTML/CSS
-- How floats affect layout and how to fix collapse issues
-- How to structure multi‑page sites cleanly
-- How to use GitHub version history to recover original code
-- How to maintain clean, readable markup
+- Debugging broken CSS and HTML
+- Using GitHub commit history to recover older versions
+- Reconstructing layout structure from incomplete code
+- Improving readability and maintainability in legacy projects
+- Applying systematic, step-by-step restoration techniques
 
 ## Tech Used
-- HTML5
+- HTML5  
+- CSS3  
+- Git and GitHub
+
 - CSS3
 - Git & GitHub
 
