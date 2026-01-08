@@ -13,6 +13,13 @@ body {
     overflow: hidden;
 }
 
+.container::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
 ul {
     margin: 0;
     padding: 0;
@@ -203,6 +210,7 @@ header{
     width: 100%;
     margin-bottom: 5px;
 }
+
 
 
 
