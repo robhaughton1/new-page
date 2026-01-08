@@ -1,5 +1,5 @@
-body{
-    font: 15px/1.5, Helvetica,sans-serif;
+body {
+    font: 15px/1.5 Helvetica,sans-serif;
     padding: 0;
     margin: 0;
     background-color: #f4f4f4;
@@ -7,13 +7,13 @@ body{
 
 /*Global*/
 
-.container{
+.container {
     width: 80%;
     margin: auto;
     overflow: hidden;
 }
 
-ul{
+ul {
     margin: 0;
     padding: 0;
 }
@@ -84,9 +84,9 @@ header a:hover{
 
 /*showcase*/
 
-#showcase{
+#showcase {
     min-height: 350px;
-    background: url('../img/showcase.jpg')no-repeat 0 -400px;
+    background: url('../img/showcase.jpg') no-repeat 0 -400px;
     text-align: center;
     color: white;
 }
@@ -94,10 +94,6 @@ header a:hover{
 #showcase{
     font-size: 45px;
 
-}
-
-#showcas p{
-    font-size: 20px;
 }
 
 /*newsletter*/
@@ -108,13 +104,13 @@ header a:hover{
     background: #383333;
 }
 
-#newsletter h1(
-    font: left;
-)
+#newsletter h1 {
+    float: left;
+}
 
-#newsletter form(
+#newsletter form {
     float: right;
-)
+}
 
 #newsletter input[type ="email"]{
     padding: 4px;
@@ -153,10 +149,10 @@ aside#sidebar .quote input, aside#sidebar .quote textarea{
 }
 
 /*main-col*/
-article#main-col(
+article#main-col{
     float:left;
     width: 65%;
-)
+}
 
 /*sidebar*/
 ul#services li{
@@ -191,14 +187,14 @@ footer{
     }
 }
 
-header(
-    padding-bottom: 20p;
-)
+header{
+    padding-bottom: 20px;
+}
 #showcase h1{
     margin-top: 40px;
 }
 
-#newsletter button, >quote button{
+#newsletter button, .quote button{
     display: block;
     width: 100%;
 }
@@ -208,3 +204,4 @@ header(
     margin-bottom: 5px;
 }
 }
+
